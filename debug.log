@@ -1,0 +1,838 @@
+2025-09-16 23:00:52,193 - INFO - MasterDataView: GET request received.
+2025-09-16 23:00:52,194 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:52,194 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:52,203 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:52,211 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-16 23:00:52,325 - ERROR - Internal Server Error: /api/master-data/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+        data, cls=self.encoder_class,
+        indent=indent, ensure_ascii=self.ensure_ascii,
+        allow_nan=not self.strict, separators=separators
+    )
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: nan
+2025-09-16 23:00:52,338 - INFO - MasterDataView: GET request received.
+2025-09-16 23:00:52,338 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:52,339 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:52,343 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:52,348 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-16 23:00:52,460 - ERROR - Internal Server Error: /api/master-data/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+        data, cls=self.encoder_class,
+        indent=indent, ensure_ascii=self.ensure_ascii,
+        allow_nan=not self.strict, separators=separators
+    )
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: nan
+2025-09-16 23:00:52,702 - INFO - MasterDataView: GET request received.
+2025-09-16 23:00:52,702 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:52,702 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:52,707 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:52,711 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-16 23:00:52,792 - ERROR - Internal Server Error: /api/master-data/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+        data, cls=self.encoder_class,
+        indent=indent, ensure_ascii=self.ensure_ascii,
+        allow_nan=not self.strict, separators=separators
+    )
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: nan
+2025-09-16 23:00:52,799 - INFO - MasterDataView: GET request received.
+2025-09-16 23:00:52,800 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:52,800 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:52,804 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:52,807 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-16 23:00:52,892 - ERROR - Internal Server Error: /api/master-data/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+        data, cls=self.encoder_class,
+        indent=indent, ensure_ascii=self.ensure_ascii,
+        allow_nan=not self.strict, separators=separators
+    )
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: nan
+2025-09-16 23:00:57,210 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:57,210 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:57,210 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:57,216 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:57,217 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:57,356 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:00:58,154 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:58,154 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:58,155 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:58,161 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:58,161 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:58,303 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:00:58,353 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:58,354 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:58,354 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:58,359 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:58,360 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:58,491 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:00:58,617 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:58,617 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:58,617 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:58,622 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:58,623 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:58,750 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:00:58,801 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:58,802 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:58,802 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:58,807 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:58,807 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:58,927 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:00:59,505 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:00:59,506 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:00:59,506 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:00:59,510 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:00:59,510 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:00:59,663 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:00,043 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:00,043 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:00,044 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:00,048 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:00,048 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:00,158 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:00,982 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:00,983 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:00,983 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:00,986 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:00,987 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:01,092 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:01,162 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:01,162 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:01,163 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:01,168 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:01,168 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:01,290 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:01,363 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:01,363 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:01,363 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:01,367 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:01,368 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:01,484 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:01,572 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:01,573 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:01,573 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:01,577 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:01,578 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:01,692 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:01,773 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:01,774 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:01,774 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:01,780 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:01,780 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:01,910 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:01,941 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:01,941 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:01,941 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:01,947 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:01,947 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:02,095 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:02,158 - INFO - GeneratePlanView: POST request received.
+2025-09-16 23:01:02,158 - INFO - Attempting to load master_train_data.csv
+2025-09-16 23:01:02,158 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-16 23:01:02,163 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-16 23:01:02,163 - INFO - GeneratePlanView: Starting optimization solver.
+2025-09-16 23:01:02,312 - ERROR - Internal Server Error: /api/generate-plan/
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Train_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abuza\astar_v2\backend\api\views.py", line 80, in post
+    final_plan = analyzer.generate_plan_with_justifications()
+  File "C:\Users\abuza\astar_v2\backend\api\optimizer.py", line 163, in generate_plan_with_justifications
+    'Train_Name': train_data['Train_Name'],
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\abuza\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Train_Name'
+2025-09-16 23:01:48,299 - INFO - C:\Users\abuza\astar_v2\backend\api\views.py changed, reloading.
+2025-09-16 23:01:48,772 - INFO - C:\Users\abuza\astar_v2\backend\api\views.py changed, reloading.
+2025-09-16 23:01:49,123 - INFO - C:\Users\abuza\astar_v2\backend\api\views.py changed, reloading.
+2025-09-16 23:02:12,458 - INFO - C:\Users\abuza\astar_v2\backend\api\optimizer.py changed, reloading.
+2025-09-16 23:02:12,620 - INFO - C:\Users\abuza\astar_v2\backend\api\optimizer.py changed, reloading.
+2025-09-16 23:02:12,935 - INFO - C:\Users\abuza\astar_v2\backend\api\optimizer.py changed, reloading.
