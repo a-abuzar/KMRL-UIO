@@ -1,0 +1,87 @@
+.navbar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f0f2f5; /* Very light grey/off-white */
+  color: #343a40; /* Dark grey for text */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+.navbar-header {
+  padding: 25px;
+  text-align: center;
+  background-color: #ffffff; /* White header background */
+  border-bottom: 1px solid #e9ecef; /* Lighter separation line */
+}
+
+.navbar-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #343a40; /* Dark text for header */
+  font-weight: 700;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  flex-grow: 1;
+}
+
+.navbar-links li {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #343a40; /* Dark text for links */
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  margin-bottom: 5px;
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+.navbar-links li i {
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.navbar-links li:hover {
+  background-color: #e9ecef; /* Slightly darker light grey on hover */
+  color: #343a40;
+  transform: translateX(5px);
+}
+
+.navbar-links li.active {
+  background-color: #007bff; /* Primary blue for active */
+  color: #ffffff; /* White text for active */
+  border-left: 4px solid #0056b3; /* Darker blue highlight */
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Ensure .app-button styles don't conflict */
+.navbar-links li.app-button {
+  padding: 15px 25px;
+  border-radius: 0;
+  box-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.navbar-links li.app-button:hover {
+  transform: translateX(5px);
+  box-shadow: none;
+}
+
+.navbar-links li.app-button:active {
+  transform: none;
+  box-shadow: none;
+}
