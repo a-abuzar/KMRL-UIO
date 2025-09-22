@@ -21,6 +21,15 @@
   margin: 0;
   font-size: 2rem;
   color: #343a40;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  color: #6c757d;
+  font-weight: 400;
 }
 
 .content-main {
