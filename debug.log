@@ -1510,3 +1510,70 @@ KeyError: 'Train_Name'
 2025-09-17 13:08:44,934 - INFO - Successfully loaded and prepared master_train_data.csv
 2025-09-17 13:08:44,934 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=10, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
 2025-09-17 13:08:45,007 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-22 11:45:16,168 - INFO - MasterDataView: GET request received.
+2025-09-22 11:45:16,170 - INFO - Attempting to load master_train_data.csv
+2025-09-22 11:45:16,170 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-22 11:45:16,192 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-22 11:45:16,205 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-22 11:45:16,212 - INFO - MasterDataView: GET request received.
+2025-09-22 11:45:16,212 - INFO - Attempting to load master_train_data.csv
+2025-09-22 11:45:16,212 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-22 11:45:16,218 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-22 11:45:16,223 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-22 11:45:27,040 - INFO - GeneratePlanView: POST request received.
+2025-09-22 11:45:27,041 - INFO - Attempting to load master_train_data.csv
+2025-09-22 11:45:27,041 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-22 11:45:27,046 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-22 11:45:27,059 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-22 11:45:27,142 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-23 13:14:22,255 - INFO - MasterDataView: GET request received.
+2025-09-23 13:14:22,256 - INFO - Attempting to load master_train_data.csv
+2025-09-23 13:14:22,257 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-23 13:14:22,302 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-23 13:14:22,314 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-23 13:14:22,321 - INFO - MasterDataView: GET request received.
+2025-09-23 13:14:22,322 - INFO - Attempting to load master_train_data.csv
+2025-09-23 13:14:22,322 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-23 13:14:22,327 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-23 13:14:22,332 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-23 13:14:24,650 - INFO - GeneratePlanView: POST request received.
+2025-09-23 13:14:24,650 - INFO - Attempting to load master_train_data.csv
+2025-09-23 13:14:24,650 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-23 13:14:24,654 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-23 13:14:24,654 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-23 13:14:24,831 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-23 13:40:00,455 - INFO - GeneratePlanView: POST request received.
+2025-09-23 13:40:00,456 - INFO - Attempting to load master_train_data.csv
+2025-09-23 13:40:00,456 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-23 13:40:00,462 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-23 13:40:00,462 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-23 13:40:00,516 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-23 13:43:14,882 - INFO - GeneratePlanView: POST request received.
+2025-09-23 13:43:14,882 - INFO - Attempting to load master_train_data.csv
+2025-09-23 13:43:14,882 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-23 13:43:14,890 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-23 13:43:14,890 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=9, min_standby_fleet=1, max_maintenance_trains=3, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-23 13:43:14,965 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-24 13:44:13,254 - INFO - C:\Users\abuza\astar_v2\backend\api\views.py changed, reloading.
+2025-09-24 15:45:39,413 - INFO - GeneratePlanView: POST request received.
+2025-09-24 15:45:39,417 - INFO - Attempting to load master_train_data.csv
+2025-09-24 15:45:39,418 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-24 15:45:39,535 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-24 15:45:39,538 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-24 15:45:39,771 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-25 18:11:01,556 - INFO - MasterDataView: GET request received.
+2025-09-25 18:11:01,557 - INFO - Attempting to load master_train_data.csv
+2025-09-25 18:11:01,557 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-25 18:11:01,584 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-25 18:11:01,589 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-25 18:11:01,594 - INFO - MasterDataView: GET request received.
+2025-09-25 18:11:01,594 - INFO - Attempting to load master_train_data.csv
+2025-09-25 18:11:01,594 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-25 18:11:01,597 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-25 18:11:01,600 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-25 18:11:06,958 - INFO - GeneratePlanView: POST request received.
+2025-09-25 18:11:06,958 - INFO - Attempting to load master_train_data.csv
+2025-09-25 18:11:06,958 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-25 18:11:06,961 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-25 18:11:06,962 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-25 18:11:07,058 - INFO - GeneratePlanView: Optimization successful, sending plan.

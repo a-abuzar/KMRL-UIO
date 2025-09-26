@@ -625,7 +625,7 @@ ${alerts.length > 0 ? alerts.map(alert => `- ${alert}`).join('\n') : 'No alerts 
              currentView === 'analytics' ? 'Analytics Dashboard' :
              currentView === 'scenarios' ? 'What-If Scenarios' :
              'Induction Plan Optimizer'}
-            {currentView === 'data' && <span className="logo-text">A-Star Railway Analytics</span>}
+            {currentView === 'data' && <span className="logo-text">KMRL Unified Intelligence Operator</span>}
           </h1>
         </header>
         <main className="content-main">

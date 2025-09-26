@@ -5,7 +5,7 @@ const Navbar = ({ currentView, setCurrentView }) => {
   return (
     <nav className="navbar">
       <div className="navbar-header">
-        <h2>A-Star Railway Analytics v2</h2>
+        <h2>KMRL Unified Intelligence Operator</h2>
       </div>
       <ul className="navbar-links">
         <li 

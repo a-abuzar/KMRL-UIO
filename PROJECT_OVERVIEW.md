@@ -1,6 +1,6 @@
-# Project Overview: A-Star Railway Analytics
+# Project Overview: KMRL Unified Intelligence Operator
 
-This document outlines the technical stack and the overall workflow of the A-Star Railway Analytics project.
+This document outlines the technical stack and the overall workflow of the KMRL Unified Intelligence Operator project.
 
 ## Tech Stack
 
