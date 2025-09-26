@@ -1,87 +1,122 @@
+/*
+ * Apple-Level Navbar
+ * - Ultra-clean, minimalist design.
+ * - Subtle gradients and shadows for depth.
+ * - Sophisticated micro-interactions for a premium feel.
+ * - Utilizes SF Pro display fonts for a native Apple look.
+ */
+
 .navbar {
   width: 250px;
   height: 100vh;
-  background-color: #f0f2f5; /* Very light grey/off-white */
-  color: #343a40; /* Dark grey for text */
+  background: linear-gradient(180deg, #f8f8f8 0%, #ffffff 100%); /* Subtle gradient for depth */
+  color: #333333; /* Soft dark grey */
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Lighter, more diffused shadow */
+  font-family: -apple-system, "SF Pro Display", "SF Pro Icons", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased; /* Smoother text rendering */
+  overflow: hidden;
+  border-right: 1px solid #e0e0e0; /* A very thin, subtle border */
 }
 
+/* Header Section: Updated to center the logo */
 .navbar-header {
-  padding: 25px;
-  text-align: center;
-  background-color: #ffffff; /* White header background */
-  border-bottom: 1px solid #e9ecef; /* Lighter separation line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  border-bottom: 1px solid #e9ecef;
 }
 
-.navbar-header h2 {
-  margin: 0;
-  font-size: 1.8rem;
-  color: #343a40; /* Dark text for header */
-  font-weight: 700;
+/* Logo Styling: Adjusted to maintain aspect ratio */
+.navbar-logo {
+  height: auto; /* Set a fixed height for the logo */
+  width: auto;  /* Allow width to adjust automatically */
+  max-width: 180px; /* Prevent the logo from becoming too large */
 }
 
+/* The old .navbar-header h2 rule has been removed */
+
+/* Navigation Links */
 .navbar-links {
   list-style: none;
-  padding: 0;
-  margin: 20px 0;
+  padding: 10px 0;
+  margin: 0;
   flex-grow: 1;
 }
 
 .navbar-links li {
+  /* Added position: relative for the ::after element to be contained */
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 15px 25px;
+  padding: 12px 25px;
+  margin: 4px 10px; /* Reduced margin for a compact feel */
+  border-radius: 8px; /* Rounded corners for a modern look */
   cursor: pointer;
-  font-size: 1.1rem;
-  color: #343a40; /* Dark text for links */
-  transition: all 0.3s ease;
-  border-left: 4px solid transparent;
-  margin-bottom: 5px;
-  user-select: none; /* Prevent text selection */
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+ */
+  font-size: 0.95rem; /* Slightly smaller font size */
+  font-weight: 500; /* Light weight for elegance */
+  color: #555555;
+  letter-spacing: -0.3px;
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1); /* Slower, more elegant transition curve */
 }
 
 .navbar-links li i {
-  margin-right: 15px;
-  font-size: 1.2rem;
+  margin-right: 12px;
+  font-size: 1rem;
+  color: #4f4f4f; /* Softer icon color */
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .navbar-links li:hover {
-  background-color: #e9ecef; /* Slightly darker light grey on hover */
-  color: #343a40;
-  transform: translateX(5px);
+  background-color: #e6f2ff; /* A very subtle grey hover */
+  color: #1a1a1a;
+  transform: translateY(-2px); /* Lift element subtly on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow on hover */
+}
+
+.navbar-links li:hover i {
+  color: #007aff; /* Primary blue for icons on hover */
 }
 
 .navbar-links li.active {
-  background-color: #007bff; /* Primary blue for active */
-  color: #ffffff; /* White text for active */
-  border-left: 4px solid #0056b3; /* Darker blue highlight */
-  font-weight: 700;
-  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+  background:#007aff ; /* Light, ethereal blue background */
+  color: #e6f2ff; /* Signature Apple blue */
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 122, 255, 0.1); /* Very light blue shadow for depth */
 }
 
-/* Ensure .app-button styles don't conflict */
-.navbar-links li.app-button {
-  padding: 15px 25px;
-  border-radius: 0;
-  box-shadow: none;
-  text-transform: none;
-  letter-spacing: normal;
+/* Line on the Right Side of the Active Button */
+.navbar-links li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px; /* Position it outside the 10px right margin */
+    width: 4px;
+    height: 100%;
+    background-color: #007aff; /* Primary blue color */
+    border-radius: 2px;
+    transform: scaleY(1);
+    transform-origin: center;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.navbar-links li.app-button:hover {
-  transform: translateX(5px);
-  box-shadow: none;
+.navbar-links li.active i {
+  color: #e6f2ff; /* Ensure icon color matches text color on active */
 }
 
-.navbar-links li.app-button:active {
-  transform: none;
-  box-shadow: none;
+.navbar-links li.active:hover {
+  transform: translateY(0); /* Remove lift for active state */
+  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.1);
+}
+
+/* Separator for clarity */
+.navbar-separator {
+  height: 1px;
+  background-color: #f0f0f0;
+  margin: 10px 25px;
 }

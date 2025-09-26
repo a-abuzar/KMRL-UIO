@@ -1,46 +1,51 @@
 import React from 'react';
+import logo from './assets/logo.png'; // Import the logo
 import './Navbar.css';
 
-const Navbar = ({ currentView, setCurrentView }) => {
+// The component now correctly receives currentView and setCurrentView as props
+const AppNavbar = ({ currentView, setCurrentView }) => {
   return (
     <nav className="navbar">
       <div className="navbar-header">
-        <h2>KMRL Unified Intelligence Operator</h2>
+        {/* The h2 text is replaced with your logo */}
+        <img src={logo} alt="KMRL Unified Intelligence Operator Logo" className="navbar-logo" />
       </div>
       <ul className="navbar-links">
+        {/* Corrected className to apply 'active' style properly */}
         <li 
-          className={`app-button ${currentView === 'master' ? 'active' : ''}`} 
+          className={currentView === 'master' ? 'active' : ''} 
           onClick={() => setCurrentView('master')}
         >
-          <i className="fas fa-train"></i> Master Data
+          <i className="fas fa-train"></i> MASTER DATA
         </li>
         <li 
-          className={`app-button ${currentView === 'data' ? 'active' : ''}`} 
+          className={currentView === 'data' ? 'active' : ''} 
           onClick={() => setCurrentView('data')}
         >
-          <i className="fas fa-database"></i> Data Tables
+          <i className="fas fa-database"></i> DATA TABLES
         </li>
         <li 
-          className={`app-button ${currentView === 'analytics' ? 'active' : ''}`} 
+          className={currentView === 'analytics' ? 'active' : ''} 
           onClick={() => setCurrentView('analytics')}
         >
-          <i className="fas fa-chart-line"></i> Analytics
+          <i className="fas fa-chart-line"></i> ANALYTICS
         </li>
         <li 
-          className={`app-button ${currentView === 'scenarios' ? 'active' : ''}`} 
+          className={currentView === 'scenarios' ? 'active' : ''} 
           onClick={() => setCurrentView('scenarios')}
         >
           <i className="fas fa-flask"></i> What-If
         </li>
         <li 
-          className={`app-button ${currentView === 'plan' ? 'active' : ''}`} 
+          className={currentView === 'plan' ? 'active' : ''} 
           onClick={() => setCurrentView('plan')}
         >
-          <i className="fas fa-chart-pie"></i> Induction Plan
+          <i className="fas fa-chart-pie"></i> INDUCTION PLAN
         </li>
       </ul>
     </nav>
   );
 };
 
-export default Navbar;
+// Corrected the export to match the component name
+export default AppNavbar;

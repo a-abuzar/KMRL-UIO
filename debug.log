@@ -1577,3 +1577,176 @@ KeyError: 'Train_Name'
 2025-09-25 18:11:06,961 - INFO - Successfully loaded and prepared master_train_data.csv
 2025-09-25 18:11:06,962 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
 2025-09-25 18:11:07,058 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-26 07:07:17,465 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:17,465 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:17,466 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:17,481 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:17,484 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:07:17,487 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:17,488 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:17,488 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:17,490 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:17,491 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:07:31,427 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:31,427 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:31,427 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:31,429 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:31,431 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:07:31,433 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:31,433 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:31,433 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:31,435 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:31,437 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:07:36,278 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:36,278 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:36,278 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:36,281 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:36,282 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:07:36,285 - INFO - MasterDataView: GET request received.
+2025-09-26 07:07:36,285 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:07:36,285 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:07:36,288 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:07:36,289 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:09:03,142 - INFO - MasterDataView: GET request received.
+2025-09-26 07:09:03,142 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:09:03,142 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:09:03,144 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:09:03,146 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:09:03,147 - INFO - MasterDataView: GET request received.
+2025-09-26 07:09:03,147 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:09:03,147 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:09:03,149 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:09:03,151 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:09:05,054 - INFO - GeneratePlanView: POST request received.
+2025-09-26 07:09:05,054 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:09:05,055 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:09:05,057 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:09:05,057 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-26 07:09:05,132 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-26 07:09:43,525 - INFO - MasterDataView: GET request received.
+2025-09-26 07:09:43,525 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:09:43,525 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:09:43,528 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:09:43,530 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:09:43,533 - INFO - MasterDataView: GET request received.
+2025-09-26 07:09:43,533 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:09:43,533 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:09:43,536 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:09:43,539 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:10:09,557 - INFO - GeneratePlanView: POST request received.
+2025-09-26 07:10:09,557 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:10:09,557 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:10:09,559 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:10:09,559 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-26 07:10:09,589 - INFO - GeneratePlanView: Optimization successful, sending plan.
+2025-09-26 07:22:03,756 - INFO - MasterDataView: GET request received.
+2025-09-26 07:22:03,756 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:22:03,756 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:22:03,759 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:22:03,761 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:50:49,837 - INFO - MasterDataView: GET request received.
+2025-09-26 07:50:49,837 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:50:49,837 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:50:49,840 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:50:49,841 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 07:50:49,844 - INFO - MasterDataView: GET request received.
+2025-09-26 07:50:49,844 - INFO - Attempting to load master_train_data.csv
+2025-09-26 07:50:49,844 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 07:50:49,846 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 07:50:49,848 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 09:55:47,370 - INFO - MasterDataView: GET request received.
+2025-09-26 09:55:47,373 - INFO - Attempting to load master_train_data.csv
+2025-09-26 09:55:47,373 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 09:55:47,430 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 09:55:47,436 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 09:55:47,442 - INFO - MasterDataView: GET request received.
+2025-09-26 09:55:47,442 - INFO - Attempting to load master_train_data.csv
+2025-09-26 09:55:47,442 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 09:55:47,445 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 09:55:47,447 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 09:57:45,120 - INFO - MasterDataView: GET request received.
+2025-09-26 09:57:45,120 - INFO - Attempting to load master_train_data.csv
+2025-09-26 09:57:45,120 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 09:57:45,122 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 09:57:45,124 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 09:57:45,128 - INFO - MasterDataView: GET request received.
+2025-09-26 09:57:45,129 - INFO - Attempting to load master_train_data.csv
+2025-09-26 09:57:45,129 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 09:57:45,131 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 09:57:45,138 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:07:38,989 - INFO - MasterDataView: GET request received.
+2025-09-26 10:07:38,989 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:07:38,989 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:07:38,992 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:07:38,995 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:07:39,000 - INFO - MasterDataView: GET request received.
+2025-09-26 10:07:39,000 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:07:39,000 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:07:39,004 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:07:39,006 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:08:17,043 - INFO - MasterDataView: GET request received.
+2025-09-26 10:08:17,043 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:08:17,043 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:08:17,046 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:08:17,049 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:08:17,051 - INFO - MasterDataView: GET request received.
+2025-09-26 10:08:17,051 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:08:17,051 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:08:17,053 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:08:17,055 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:14:58,232 - INFO - MasterDataView: GET request received.
+2025-09-26 10:14:58,232 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:14:58,232 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:14:58,235 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:14:58,238 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:14:58,242 - INFO - MasterDataView: GET request received.
+2025-09-26 10:14:58,242 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:14:58,242 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:14:58,246 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:14:58,248 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:15:29,994 - INFO - MasterDataView: GET request received.
+2025-09-26 10:15:29,994 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:15:29,994 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:15:29,997 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:15:30,000 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:15:30,003 - INFO - MasterDataView: GET request received.
+2025-09-26 10:15:30,003 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:15:30,003 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:15:30,005 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:15:30,008 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:18:29,261 - INFO - MasterDataView: GET request received.
+2025-09-26 10:18:29,261 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:18:29,261 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:18:29,264 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:18:29,266 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:18:29,268 - INFO - MasterDataView: GET request received.
+2025-09-26 10:18:29,268 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:18:29,268 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:18:29,271 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:18:29,274 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:19:04,537 - INFO - MasterDataView: GET request received.
+2025-09-26 10:19:04,537 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:19:04,537 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:19:04,539 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:19:04,542 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:19:04,544 - INFO - MasterDataView: GET request received.
+2025-09-26 10:19:04,544 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:19:04,544 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:19:04,547 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:19:04,549 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:25:37,504 - INFO - MasterDataView: GET request received.
+2025-09-26 10:25:37,505 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:25:37,505 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:25:37,507 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:25:37,509 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:25:37,512 - INFO - MasterDataView: GET request received.
+2025-09-26 10:25:37,512 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:25:37,512 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:25:37,515 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:25:37,517 - INFO - MasterDataView: Successfully processed data, sending response.
+2025-09-26 10:36:27,820 - INFO - GeneratePlanView: POST request received.
+2025-09-26 10:36:27,822 - INFO - Attempting to load master_train_data.csv
+2025-09-26 10:36:27,822 - INFO - Looking for file at: C:\Users\abuza\astar_v2\data\master_train_data.csv
+2025-09-26 10:36:27,824 - INFO - Successfully loaded and prepared master_train_data.csv
+2025-09-26 10:36:27,826 - INFO - GeneratePlanView: Starting optimization with config: InductionPlannerConfig(required_service_fleet=8, min_standby_fleet=3, max_maintenance_trains=4, max_cleaning_trains=7, w_sla=50, w_cleaning=20, w_mileage=10, w_shunting=5)
+2025-09-26 10:36:27,936 - INFO - GeneratePlanView: Optimization successful, sending plan.
